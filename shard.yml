@@ -25,8 +25,10 @@ development_dependencies:
     version: ~> 0.10.0
 
   pg:
-    github: will/crystal-pg
-    version: ~> 0.15.0
+    github: yumoose/crystal-pg
+    branch: case-insensitive-client-encoding
+    # github: will/crystal-pg
+    # version: ~> 0.15.0
 
   ameba:
     github: veelenga/ameba
